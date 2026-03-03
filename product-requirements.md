@@ -2,7 +2,7 @@
 
 ## 제품 제목
 
-IMO Compendium 기반 선박 운항 데이터 관리 서비스(Ship-ODMS, Operantional Data Management Service)
+IMO Compendium 기반 선박 운항 데이터 관리 서비스(Ship-ODMS, Operational Data Management Service)
 
 ## 문서 버전
 
