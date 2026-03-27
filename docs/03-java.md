@@ -69,7 +69,14 @@ Python 개발자가 회사를 떠났기 때문에, 이해관계자들은 기존 
 1. Spring Boot CLI를 설치하세요.
 
     ```bash
+    # bash/zsh
     sdk install springboot
+    ```
+
+     ```powershell
+    # PowerShell
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+    choco install spring-boot-cli -y
     ```
 
 1. 아래와 같은 프롬프트를 사용하여 Spring Boot 앱 프로젝트를 스캐폴드하세요.
