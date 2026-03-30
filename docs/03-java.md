@@ -89,9 +89,9 @@ Python 개발자가 회사를 떠났기 때문에, 이해관계자들은 기존 
     - 먼저 수행할 모든 단계를 식별하세요.
     - Spring Boot CLI를 사용하여 Spring Boot 앱 프로젝트를 생성하세요.
     - Java 패키지 매니저로 Gradle을 사용하세요.
-    - 패키지 이름으로 `kr.ship.odms`을 사용하세요.
-    - artifact ID로 `odms`을 사용하세요.
-    - group ID로 `kr.ship`를 사용하세요.
+    - 패키지 이름으로 `com.kr.ship_odms`을 사용하세요.
+    - artifact ID로 `ship_odms`을 사용하세요.
+    - group ID로 `com.kr`를 사용하세요.
     - 패키지 타입으로 `jar`를 사용하세요.
     - OpenJDK 버전 `21`을 사용하세요.
     - 의존성 추가 - `Spring Web`, `Spring Boot Actuator`, `Lombok`.
@@ -116,7 +116,7 @@ Python 개발자가 회사를 떠났기 때문에, 이해관계자들은 기존 
     
     - context7을 사용하세요.
     - 기존 FastAPI 애플리케이션은 `python`에 위치합니다.
-    - 작업 디렉토리는 `java/ship_odms`입니다.
+    - 작업 디렉토리는 `java/ship-odms`입니다.
     - 먼저 수행할 모든 단계를 식별하세요.
     - 기존 FastAPI 앱의 애플리케이션 구조를 분석하세요.
     - 모든 엔드포인트를 마이그레이션하세요. 두 해당 엔드포인트는 서로 정확히 동일해야 합니다.
