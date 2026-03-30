@@ -29,7 +29,7 @@
 1. 앱을 실행하세요.
 
     ```bash
-    dotnet watch run --project $REPOSITORY_ROOT/complete/dotnet/Contoso.BlazorApp
+    dotnet watch run --project $REPOSITORY_ROOT/complete/dotnet/ship_odms
     ```
 
 1. 웹 애플리케이션이 제대로 실행되는지 확인하세요.
