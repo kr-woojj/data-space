@@ -5,7 +5,7 @@
 ## 🏗️ 아키텍처 개요
 
 - **프레임워크**: Python 3.12+를 사용한 FastAPI
-- **데이터베이스**: SQLite (`odms_api.db`)
+- **데이터베이스**: SQLite (`ship_odms.db`)
 - **API 문서화**: Swagger UI + OpenAPI 3.1 사양
 - **CORS**: 교차 출처 요청 활성화
 - **데이터 검증**: 포괄적인 검증을 포함한 Pydantic 모델
@@ -18,7 +18,7 @@ python/
 ├── models.py            # Pydantic 데이터 모델 및 스키마
 ├── database.py          # SQLite 데이터베이스 작업
 ├── openapi.yaml         # OpenAPI 3.0.1 사양
-├── odms_api.db          # SQLite 데이터베이스 파일 (자동 생성)
+├── ship_odms.db          # SQLite 데이터베이스 파일 (자동 생성)
 ├── README.md           # 이 문서
 └── .venv/              # 가상 환경 (설정 중 생성)
 ```
@@ -176,7 +176,7 @@ curl -X GET "http://localhost:8000/api/posts"
 
 애플리케이션은 기본 설정을 사용하지만 사용자 정의할 수 있습니다:
 
-- **데이터베이스**: SQLite 파일 `odms_api.db` (자동 생성)
+- **데이터베이스**: SQLite 파일 `ship_odms.db` (자동 생성)
 - **호스트**: `0.0.0.0` (모든 인터페이스)
 - **포트**: `8000`
 - **CORS**: 모든 출처에 대해 활성화
